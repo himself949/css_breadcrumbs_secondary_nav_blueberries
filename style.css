@@ -1,0 +1,11 @@
+.breadcrumb > li {
+  display: inline;
+}
+
+.breadcrumb > li.location + li.location:before {
+  content: ">";
+}
+
+.attribute {
+  color: gray;
+}
